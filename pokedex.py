@@ -71,7 +71,7 @@ def sort_by_type(user_dex):
         sorted_dict[i]=[]
         for j in user_dex:
             if i in j['Types']:
-                sorted_dict[i].append(j)
+                sorted_dict[i]=(j)
         
 
     return sorted_dict
